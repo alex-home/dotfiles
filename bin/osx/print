@@ -1,0 +1,11 @@
+# Media definitions:
+#   name        width   height  llx lly urx ury
+#Media:  A3      839 1190    18  17  821 1173
+#Media:  A4      595 839 18  17  581 822
+#Media:  A5      420 595 18  17  406 578
+#Media:  Letter      612 792 18  17  597 776
+#Media:  Legal       612 1008    18  17  597 992  
+#
+#Media:   A4BigMargin    595 839 36  34  563 805
+
+enscript -G2r -M Letter $1

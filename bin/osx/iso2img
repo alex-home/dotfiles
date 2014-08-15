@@ -1,0 +1,2 @@
+# convert $1.iso to $2.img
+hdiutil convert -format UDRW -o $2 $1
